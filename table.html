@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="./script.js" ></script>
+    <style>
+        th,td{
+            padding:20px;
+            background-color:blanchedalmond;
+            color:black;
+            font-weight: bolder;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        table{
+            width:50%;
+            margin-left:10% ;
+        }
+        div{
+            height:50%;
+            width:50%;
+            border:5px solid black;
+            text-align: center;
+            margin-left: 30%;
+            margin-top: 10%;
+            padding-top: 3%;
+            padding-bottom: 3%;
+        }
+        
+        input{
+            height:50px;
+            width:300px;
+            border-radius: 300px;
+        }
+        input::placeholder
+        {
+            text-align: center;
+        }
+        #butt
+        {
+            height:50px;
+            width:100px;
+            border-radius: 500px;
+        }
+        button
+        {
+            height:50px;
+            width:100px;
+            border-radius: 500px;
+            background-color: green;
+            color:white;
+        }
+        p{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+display:inline;
+        }
+        .square
+        {
+            width:300px;
+            height:300px;
+            background-color: aqua;
+        }
+        .circle
+        {
+            width:300px;
+            height:300px;
+            border-radius:50%;
+            background-color:chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <center><h2> TIMER⏳</h2></center>
+    <div>
+        <label>TASK</label><br><br>
+        <input type="text" name="task" id="task" >
+        <br><br>
+        <label>DESCRIPTION</label><br><br>
+        <input type="text" name="des" id="des">
+        <br>
+        <br>
+        <button id="start"> Start</button>
+    
+        <b><input type="submit" name="submit" id="butt"> </b>
+    
+    </div>
+
+        <center>
+            <br>
+            <table border="3px solid black" id="table">
+                <tr>
+           <th>Task</th>
+           <th>Description</th>
+           <th>Duration</th>
+</tr>
+
+            </table>
+        </center>
+        <br>
+        <br>
+    <!-- <center><div id="a">
+        <center><img src="https://img.freepik.com/premium-photo/generic-silver-suv_2227-846.jpg?size=626&ext=jpg&ga=GA1.1.1507150501.1694706257&semt=sph" ></center> 
+    <br><br>
+    <p>arDekho brings a complete range of new cars in 2024 in India with prices. You can search cars by applying filters such as by price, by bodytype, by brand, by seating capacity & more. </p>
+<br>
+<br>
+<div  > 
+   <p id="b">more</p> 
+   <p id="b">buy</p>
+</div>
+</div>
+    </center> -->
+    <div class="square">square</div>
+    
+</body>
